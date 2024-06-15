@@ -1,3 +1,3 @@
-# Demo Mini project
+# Demo mini project
 
 YAML file for demo
