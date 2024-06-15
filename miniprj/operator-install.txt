@@ -1,0 +1,20 @@
+operator                                            Timer
+stackablectl operator install commons=24.3.0        1p
+stackablectl operator install secret=24.3.0         2p30
+stackablectl operator install listener=24.3.0       1p
+stackablectl operator install zookeeper=24.3.0      30s
+stackablectl operator install hdfs=24.3.0           30s
+stackablectl operator install spark-k8s=24.3.0      
+
+YAML
+zk.yaml                                             2p 
+znode.yaml                                          
+hdfs.yaml                                           12p 
+
+stackablectl operator install \
+  commons=24.3.0 \
+  secret=24.3.0 \
+  listener=24.3.0 \
+  zookeeper=24.3.0 \
+  hdfs=24.3.0 \
+  nifi=24.3.0

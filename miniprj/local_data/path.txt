@@ -1,0 +1,1 @@
+/home/dodat/miniprj/input_data/20240602_20240602_crash_android_streaming_000000000000.parquet
